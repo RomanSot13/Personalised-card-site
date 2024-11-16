@@ -3,18 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kakayato Sen</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Pixelify+Sans:wght@400..700&display=swap');
         body{
-            background-image: url('./resource/background.png');
+            background-color:aliceblue;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
             height: 100vh;
             margin: 0px;
             font-family: "Pixelify Sans", sans-serif; 
+        }
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        main {
+            position: fixed;
+            top: 230px;
+            bottom: 130px;
+            left: 0;
+            right: 0;
+            padding: 70px;
         }
         ul {
             list-style-type: none;
@@ -52,6 +73,7 @@
 </head>
 <body>
     <header>
+        
         <nav>
             <div>
                 <ul>
@@ -70,16 +92,21 @@
         <div style="display: flex; flex-direction: row-reverse; align-content: center; justify-content: center; margin-top: 50px;">
             <img style="height: 119px;width: 250px;;" src="https://i.pinimg.com/originals/3b/3f/54/3b3f54973e3785f8dc0018ddbec9f5fe.gif">
         </div>
-
+        
     </header>
 
     <main>
 
+        <div>
+            <span>ЧТОТО БУДЕТ ТУТ</span>
+        </div>
 
     </main>
 
     <footer>
-
+            <div style="display: flex; flex-direction: row-reverse; align-content: center; justify-content: center; margin-top: 50px;">
+                <img style="height: 119px;width: 250px;;" src="./resource/ghiblilogo.png" alt="Логотип Ghibli" />
+            </div> 
     </footer>
 </body>
 </html>
