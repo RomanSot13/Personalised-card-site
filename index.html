@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Pixelify+Sans:wght@400..700&display=swap');
         body{
             background-image: url('./resource/background.png');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
             height: 100vh;
-            margin: 0px; 
+            margin: 0px;
+            font-family: "Pixelify Sans", sans-serif; 
         }
         ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
+            text-align: center;
+            
         }
         li {
             display: inline-block;
@@ -34,22 +39,42 @@
         .menu:hover {
             background-color: #60615f;
         }
+        a {
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .quote{
+            font-family: "Pixelify Sans", sans-serif;
+            font-size: 20px;
+            font-stretch: ultra-expanded;
+        }
     </style>
 </head>
 <body>
     <header>
         <nav>
             <div>
-                <ul style="text-align: center;">
-                    <li class="menu"><a style="text-decoration: none;" href="#">HOME</a></li>
-                    <li class="menu"><a style="text-decoration: none;" href="#">ABOUT</a></li>
-                    <li class="menu"><a style="text-decoration: none;" href="#">MUST SEE</a></li>
+                <ul>
+                    <li class="menu"><a href="#">HOME</a></li>
+                    <li class="menu"><a href="#">ABOUT</a></li>
+                    <li class="menu"><a href="#">MUST SEE</a></li>
                 </ul>
             </div>
         </nav>
+        <div>
+            <div style="text-align: center;">
+                <span class="quote">-Yes, I'm Kamaji's grandfather, warming the bath water, and myself in the mud ! </br> ©Grandfather Kamaji</span>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row-reverse; align-content: center; justify-content: center; margin-top: 50px;">
+            <img style="height: 119px;width: 250px;;" src="https://i.pinimg.com/originals/3b/3f/54/3b3f54973e3785f8dc0018ddbec9f5fe.gif">
+        </div>
+
     </header>
 
     <main>
+
 
     </main>
 
